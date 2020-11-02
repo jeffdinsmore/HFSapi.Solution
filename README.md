@@ -97,7 +97,7 @@ Main Programs
 ### Other Links
 ![GitHub](USParksAPI/img/Github.png)
 [Mike's GitHub](https://github.com/mmanchee)<br />
-[LinkedIn](https://www.linkedin.com/in/mikemanchee/)<br />
+[LinkedIn](https://www.linkedin.com/in/mikemanchee/)<br /> 
 
 ### License
 
