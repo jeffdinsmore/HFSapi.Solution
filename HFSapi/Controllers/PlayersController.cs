@@ -45,25 +45,25 @@ namespace HFSapi.Controllers
       }
 
       [HttpGet("search")]
-      public async Task<IActionResult> Search([FromQuery] PaginationFilter filter, string Name, string Position)
+      public async Task<IActionResult> Search([FromQuery] PaginationFilter filter, string LastName, string Position)
       {
         var route = Request.Path.Value;
         var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
         var query = _db.Players.AsQueryable();
 
-        if (Name != null)
+        if (LastName != null)
         {
-            query = query.Where(entry => entry.Name == Name); 
+            query = query.Where(entry => entry.LastName == LastName); 
         }
         
         if (Position != null)
         {
             query = query.Where(entry => entry.Position == Position);
         }
-
+        var totalRecords = await query.CountAsync();
         query = query.Skip((validFilter.PageNumber - 1) * validFilter.PageSize).Take(validFilter.PageSize);
 
-        var totalRecords = await _db.Games.CountAsync();
+        
         var pagedResponse = PaginationHelper.CreatePagedReponse<Player>(query.ToList(), validFilter, totalRecords, uriService, route);
 
         return Ok(pagedResponse);
