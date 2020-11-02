@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using USParksAPI.Services;
-using USParksAPI.Models;
+using HFSapi.Services;
+using HFSapi.Models;
 
-namespace USParksAPI.Controllers
+namespace HFSapi.Controllers
 {
   [Authorize]
   [ApiController]
