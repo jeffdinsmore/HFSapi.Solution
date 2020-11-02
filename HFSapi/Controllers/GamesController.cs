@@ -40,6 +40,7 @@ namespace HFSapi.Controllers
       public async Task<IActionResult> GetById(int id)
       {
           var game = await _db.Games.Where(a => a.GameId == id).FirstOrDefaultAsync();
+          System.Console.WriteLine(";;;;;;;;;;;;;;;;  " + game.PlayerId);
           return Ok(new Response<Game>(game));
       }
 
@@ -88,7 +89,10 @@ namespace HFSapi.Controllers
         {
             query =  query.Where(entry => entry.Week == Week);
         }
-        
+        if(query.Count() == 0)
+        {
+          return Ok(new Response<Game>(new Game())); 
+        }
         
         Random random = new Random();
         Game game = query.ToList()[random.Next(query.ToList().Count)];
