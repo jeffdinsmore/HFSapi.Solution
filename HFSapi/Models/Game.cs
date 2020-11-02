@@ -13,6 +13,8 @@ namespace HFSapi.Models
     public int Interceptions { get; set; }
     public int Fumbles { get; set; }
     public int Receptions { get; set; }
-    public int TDs { get; set; }
+    public int PassTDs { get; set; }
+    public int RushTDs { get; set; }
+    public int RecTDs { get; set; }
   }
 }
