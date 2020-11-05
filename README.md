@@ -279,8 +279,8 @@ https://localhost:5000/api/Games/2
 |--------|:------:|:-----:|
 | [Daniel Schaaf](https://linkedin.com/in/danielschaaf) | [dschaaf89](https://github.com/dschaaf89) |  [Daniel.schaaf@outlook.com](mailto:Daniel.schaaf@outlook.com) |
 | [Mike Manchee](https://www.linkedin.com/in/mikemanchee/) | [mmanchee](https://github.com/mmanchee) |  [mikemanchee@gmail.com](mailto:mikemanchee@gmail.com) |
-|[Joseph Niles]()|[jbnilles](https://github.com/jbnilles)| [jbnilles24@gmail.com](mailto:jbnilles24@gmail.com)
-|[Jeffery Dinsmore]()|[jeffdinsmore](https://github.com/jeffdinsmore)| [hello@jeffdinsmore.com](mailto:hello@jeffdinsmore.com)
+|[Joseph Niles](https://www.linkedin.com/in/joseph-nilles/)|[jbnilles](https://github.com/jbnilles)| [jbnilles24@gmail.com](mailto:jbnilles24@gmail.com)
+|[Jeffery Dinsmore](https://www.linkedin.com/in/jeffmdinsmore/)|[jeffdinsmore](https://github.com/jeffdinsmore)| [hello@jeffdinsmore.com](mailto:hello@jeffdinsmore.com)
 
 ------------------------------
 
