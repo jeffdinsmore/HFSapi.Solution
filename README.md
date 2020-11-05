@@ -48,7 +48,7 @@
     </p>
 </p>
 <p align="center">
-  <small>Initiated 10/20/2020.</small>
+  <small>Initiated 11/05/2020.</small>
 </p>
 
 <!-- Project Links -->
