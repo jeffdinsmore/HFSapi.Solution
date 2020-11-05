@@ -213,7 +213,7 @@ To use default, _don't include_ `limit` and `start` or set them equal to zero.
 Base URL: `https://localhost:5000`
 
 
-![picture](images.swaggerEndpoints.jpg)
+![picture](images/swaggerEndpoints.jpg)
 
 
 #### HTTP Request Structure
