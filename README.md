@@ -321,6 +321,8 @@ SOFTWARE.
 
 ### 🌟 Acknowledgments
 
+All weekly Statistics were taken from [FantasyFootballDataPros](https://www.fantasyfootballdatapros.com/csv_files)
+
 #### [Epicodus](https://www.epicodus.com/)
 >"A school for tech careers... to help people learn the skills they need to get great jobs."
 
