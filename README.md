@@ -80,7 +80,7 @@
 ## 🌐 About the Project
 
 ### 📖 Description
-An API that functions as a statistical database for a Historical Fantasy Football League.It has data of about 6 seasons of American Football from the years 1999 - 2004. It utilizes RESTful principles, enables Cors, version control, and has integrated authentication to keep the API Read-Only for all users except administrators. It also utilizes Pagination The user is able to see the in-use version of the API when using Postman.
+An API that functions as a statistical database for a Historical Fantasy Sports Simulator.It has data of about 6 seasons of American Football from the years 1999 - 2004. It utilizes RESTful principles, enables Cors, Pagination, and has integrated authentication to keep the API Read-Only for all users except administrators. It also utilizes Pagination The user is able to see the in-use version of the API when using Postman.
 
 ### 🦠 Known Bugs
 
