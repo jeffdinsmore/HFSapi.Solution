@@ -16,5 +16,9 @@ namespace HFSapi.Models
     public int PassTDs { get; set; }
     public int RushTDs { get; set; }
     public int RecTDs { get; set; }
+    public Game()
+    {
+      
+    }
   }
 }
