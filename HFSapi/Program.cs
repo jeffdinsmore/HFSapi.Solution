@@ -13,6 +13,6 @@ namespace HFSapi
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:5000"); //Added to enable Token
+                .UseUrls("http://localhost:5003"); //Added to enable Token
     }
 }

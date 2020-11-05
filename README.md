@@ -103,3 +103,7 @@ Main Programs
 
 Copyright (c) 2020 **_{Mike Manchee, Daniel Schaaf, Joseph Nilles, and Jeff Dinsmore}_**
 Licensed under MIT
+
+Co-authored-by: Joseph Nilles <jbnilles24@gmail.com>
+Co-authored-by: Jeff Dinsmore <hello@jeffdinsmore.com>
+Co-authored-by: Daniel Schaaf <daniel.schaaf@outlook.com>
